@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "dependencies": {
+    "benny": "^3.6.15"
+  }
+}
