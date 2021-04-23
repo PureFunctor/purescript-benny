@@ -2,5 +2,10 @@
   "private": true,
   "dependencies": {
     "benny": "^3.6.15"
+  },
+  "scripts": {
+    "install": "spago install",
+    "build": "spago build",
+    "test": "spago -x tests.dhall test"
   }
 }
