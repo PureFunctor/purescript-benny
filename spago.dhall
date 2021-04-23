@@ -1,9 +1,15 @@
-{-
-Welcome to a Spago project!
-You can edit this file as you like.
--}
 { name = "benny"
-, dependencies = [ "console", "effect", "psci-support" ]
+, dependencies =
+  [ "aff"
+  , "aff-promise"
+  , "effect"
+  , "foldable-traversable"
+  , "foreign"
+  , "nullable"
+  , "options"
+  , "prelude"
+  , "psci-support"
+  ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
 }
